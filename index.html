@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head Section - all the required links + title -->
+    <head>
+        <title>Big Fishin World</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie-edge"/>
+        <link rel="icon" type="image/x-icon" href="images/BFWOF-Icon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href='https://fonts.googleapis.com/css?family=Gluten' rel='stylesheet'>
+    </head>
+    <style>
+        body {
+            font-family: 'Gluten';
+            background-color: #0f2747;
+        }
+        h1{
+            font-family: 'Gluten';
+            font-weight: bold;
+            font-size: 72px;
+            color: #ffffff;  
+            text-align: center;
+            text-shadow: 3px 3px #000000;
+        }
+        h3{
+            font-family: 'Gluten';
+            font-weight: bold;
+            font-size: 36px;
+            color: #ffffff;  
+            text-align: center;
+            text-shadow: 2px 2px #000000;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: #ffffff;
+            text-align: center;
+        }
+        .w3-bar {
+            background-color: #020a08e3;
+            color: #ffffff;
+            position: sticky;
+            top: 0;
+            text-align: center;
+            z-index: 10;
+        }
+        hr {
+            border: none;             /* Removes the default browser 3D border */
+            height: 2px;              /* Sets line thickness */
+            background-color: #ffffff;/* Changes the line color */
+            width: 100%;             /* Controls the width */
+            align-items: center;            /* Centers the line */
+            margin: 20px 0;           /* Adds space above and below the line */
+        }
+        .w3-col {
+            margin-bottom: 16px;      /* Adds space below each column */
+        }
+    </style>
+    <body>
+        <nav class="w3-bar w3-large">
+            <a href="#ocean-voyager" class=" w3-button"><img src="images\BFWOF-Icon.ico" alt="Ocean Voyager Logo" style="height: 32px; width: 32px; margin-right: 10px;">BFWOV</a>
+            <a href="#big-fishin-world" class=" w3-button"><img src="images/Icon.ico" alt="Big Fishin World Logo" style="height: 32px; width: 32px; margin-right: 10px;">BFW</a>
+        </nav>
+        <br>
+        <div class="w3-container w3-center" id="ocean-voyager">
+            <div class="w3-display-container w3-center">
+                <img src="images\bfwov.png" alt="Big Fishin World: Ocean Voyager Logo" class="w3-image" style="max-width: 100%; height: auto; border-radius: 10px;">
+            </div>
+            <p class="w3-text-white">
+                Big Fishin World: Ocean Voyager is a fishing roguelike that turns an activity such as ocean fishing and turns it into a dangerous game 
+                of luck (reel luck), knowledge, and the ability to think like a fish! Will you be able to make it through a full voyage or will you be thrown 
+                OVERBOARD by the cold hearted Cap'N Grant?! 
+                <br><br>
+                The goal of this game is to complete an ocean fishing voyage around the Island of Phoxinus. In order 
+                to do that you must be skilled at knowing the seas of Anglin and how to fish them! Explore various ocean fishing spots and more importantly the 
+                fish that reside there! Gain points and progress towards your quota, but will it be enough to get you to the next route? Only the lords of the seas 
+                will be able to determine your fate, or will you be able to laugh at the face of them and choose your own destiny on these seas?
+            </p>
+            <br>
+            <div class="w3-center">
+                <a href="https://store.steampowered.com/app/2499820/Big_Fishin_World_Ocean_Voyager/" target="_blank" class="w3-button w3-large w3-round-large w3-white w3-hover-blue">Steam</a>
+                <a href="https://big-salty.itch.io/big-fishin-world-ocean-voyager" target="_blank" class="w3-button w3-large w3-round-large w3-white w3-hover-green">itch.io</a>
+                <a href="https://www.youtube.com/watch?v=5g1J8k6X9xM" target="_blank" class="w3-button w3-large w3-round-large w3-white w3-hover-red">Trailer</a>
+            </div>
+            <br><br>
+            <div class="w3-container w3-center">
+                <div class="w3-row-padding w3-center">
+                    <div class="w3-col s12 m6 l4">
+                        <img src="images\bfwov1.png" alt="Big Fishin World: Ocean Voyager Screenshot 1" class="w3-image" style="width: 100%; height: 100%; border-radius: 10px; object-fit: cover;" onclick="onClick(this)">
+                    </div>
+                    <div class="w3-col s12 m6 l4">
+                        <img src="images\bfwov2.png" alt="Big Fishin World: Ocean Voyager Screenshot 2" class="w3-image" style="width: 100%; height: 100%; border-radius: 10px; object-fit: cover;" onclick="onClick(this)">
+                    </div>
+                    <div class="w3-col s12 m6 l4">
+                        <img src="images\bfwov3.png" alt="Big Fishin World: Ocean Voyager Screenshot 3" class="w3-image" style="width: 100%; height: 100%; border-radius: 10px; object-fit: cover;" onclick="onClick(this)">
+                    </div>
+                    <div class="w3-col s12 m6 l4">
+                        <img src="images\bfwov4.png" alt="Big Fishin World: Ocean Voyager Screenshot 4" class="w3-image" style="width: 100%; height: 100%; border-radius: 10px; object-fit: cover;" onclick="onClick(this)">
+                    </div>
+                    <div class="w3-col s12 m6 l4">
+                        <img src="images\bfwov5.png" alt="Big Fishin World: Ocean Voyager Screenshot 5" class="w3-image" style="width: 100%; height: 100%; border-radius: 10px; object-fit: cover;" onclick="onClick(this)">
+                    </div>
+                    <div class="w3-col s12 m6 l4">
+                        <img src="images\bfwov6.png" alt="Big Fishin World: Ocean Voyager Screenshot 6" class="w3-image" style="width: 100%; height: 100%; border-radius: 10px; object-fit: cover;" onclick="onClick(this)">
+                    </div>
+                    <div class="w3-col s12 m6 l4">
+                        <img src="images\bfwov7.png" alt="Big Fishin World: Ocean Voyager Screenshot 7" class="w3-image" style="width: 100%; height: 100%; border-radius: 10px; object-fit: cover;" onclick="onClick(this)">
+                    </div>
+                    <div class="w3-col s12 m6 l4">
+                        <img src="images\bfwov8.png" alt="Big Fishin World: Ocean Voyager Screenshot 8" class="w3-image" style="width: 100%; height: 100%; border-radius: 10px; object-fit: cover;" onclick="onClick(this)">
+                    </div>
+                </div>
+                <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                    <div class="w3-modal-content w3-animate-zoom">
+                        <img id="img01" style="width:100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="w3-container w3-center" id="big-fishin-world">
+            <div class="w3-display-container w3-center">
+                <img src="images\bfw.jpg" alt="Big Fishin World: Ocean Voyager Logo" class="w3-image" style="max-width: 100%; height: auto; border-radius: 10px;">
+            </div>
+            <p class="w3-text-white">
+                Big Fishin World is an upcoming open-world fishing game that will allow you to explore the world of Anglin and fish in various locations! The game is currently in development and will be released on Steam and itch.io. Stay tuned for more information! 
+            </p>
+            <br><br>
+        </div>
+      <!-- Footer -->
+      <footer>
+        <div class="links-row">
+        </div>
+        <p>&copy; BigSaltyGames <span id="year"></span></p>
+      </footer>
+    </body>
+    <!-- Scripts -->
+    <script src="getyear.js"></script>
+    <script src="modal.js"></script>
+</html>
